@@ -4,4 +4,4 @@ import App from './components/App';
 
 
 
-ReactDOM.render(<App type="heading" />, document.getElementById('root'));
+ReactDOM.render(<App text="This is my fist react heading element"/>, document.getElementById('root'));
