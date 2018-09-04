@@ -16,6 +16,12 @@ class App extends Component {
         this.handleClick = this.handleClick.bind(this);
     }
 
+    componentDidMount(){
+        this.setState({
+            hasLoaded:true
+        })
+    }
+
     handleChange(e){
         this.setState({
             text:e.target.value
